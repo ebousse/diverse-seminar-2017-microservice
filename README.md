@@ -19,3 +19,17 @@ From `build`
 $ cd build # if not already in build
 ./src/diverse-seminar-2017-microservice
 ```
+
+## Status
+
+For now, just a hello world :)
+
+TODO:
+- [ ] login service
+	- [ ] post login json, http 200 answer
+	- [ ] good login, return json file with token
+	- [ ] bad login, return json file with message
+	- [ ] (bonus) token time limit
+- [ ] compute service
+	- [ ] post expression
+	- [ ] return result
